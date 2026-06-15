@@ -1,0 +1,15 @@
+{
+	"name": "krishnaproject1",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "austriaeast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "454be652-c2f6-4c40-9217-423f33fc9a13",
+		"tenantId": "4095545d-5521-47c6-b380-10d9633adf05"
+	}
+}
