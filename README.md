@@ -1,6 +1,6 @@
 # Azureproject1
 
-# Azure End-to-End Data Engineering Project 🚀
+# Azure End-to-End Data Engineering Project 
 
 This project is an end-to-end data engineering pipeline built using Microsoft Azure.
 The main goal of this project was to understand how data can be collected from a source, stored in a data lake, transformed using PySpark, and finally prepared for analytics and visualization.
@@ -9,7 +9,7 @@ I built this project while learning Azure Data Engineering concepts and working 
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 In this project, I worked with **NYC Taxi trip data** and created a complete data pipeline on Azure.
 
@@ -25,7 +25,7 @@ The project helped me understand how different Azure services can work together 
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```text
                     Data Source
@@ -69,7 +69,7 @@ The project helped me understand how different Azure services can work together 
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 | Technology                       | Purpose                                   |
 | -------------------------------- | ----------------------------------------- |
@@ -83,7 +83,7 @@ The project helped me understand how different Azure services can work together 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Azure-Data-Engineering-Project/
@@ -113,7 +113,7 @@ Azure-Data-Engineering-Project/
 
 ---
 
-# 🔄 Data Pipeline
+#  Data Pipeline
 
 ## 1. Data Ingestion
 
@@ -229,7 +229,7 @@ The Gold layer can then be connected to a BI tool such as Power BI.
 
 ---
 
-# 🧱 Delta Lake
+#  Delta Lake
 
 I used **Delta Lake** to store the processed data.
 
@@ -252,7 +252,7 @@ One of the interesting features I explored was **Time Travel**, which allows pre
 
 ---
 
-# 🔁 Medallion Architecture
+#  Medallion Architecture
 
 The project follows the Medallion Architecture:
 
@@ -299,26 +299,9 @@ Possible dashboard metrics include:
 * 📅 Trips over Time
 * 💵 Average Fare
 
-Example dashboard:
 
-```text
-+------------------------------------------------+
-|              NYC TAXI ANALYSIS                 |
-+----------------------+-------------------------+
-| Total Trips          | Total Revenue           |
-|                      |                         |
-+----------------------+-------------------------+
-| Trips by Location    | Revenue Trend           |
-|                      |                         |
-+----------------------+-------------------------+
-| Payment Type         | Average Fare            |
-|                      |                         |
-+----------------------+-------------------------+
-```
 
----
-
-# 🔐 Azure Security
+#  Azure Security
 
 During the project I also explored how Azure services can securely communicate with each other.
 
@@ -335,7 +318,7 @@ These concepts are important because data pipelines should not rely on storing c
 
 ---
 
-# 📈 What I Learned
+#  What I Learned
 
 This project helped me understand the complete flow of a data engineering project rather than learning each technology separately.
 
@@ -394,7 +377,7 @@ Solving these problems helped me understand the practical side of cloud data eng
 
 ---
 
-# 🎯 Future Improvements
+#  Future Improvements
 
 There are several things I would like to improve in the future:
 
@@ -410,11 +393,10 @@ There are several things I would like to improve in the future:
 
 ---
 
-# 📚 Resources
+#  Resources
 
 I used the following resources while working on this project:
 
-* [Azure End-to-End Data Engineering Project – Ansh Lamba](https://youtu.be/LQY2fvEv4cM)
 * Microsoft Azure documentation
 * Azure Data Factory documentation
 * Azure Databricks documentation
