@@ -94,24 +94,19 @@ Azure-Data-Engineering-Project/
 ├── README.md
 │
 ├── notebooks/
-│   ├── data_ingestion.py
-│   ├── data_transformation.py
-│   └── data_analysis.py
+│   ├── gold_notebook
+│   └── silver_notebook
 │
-├── pipelines/
-│   └── azure_data_factory/
+├── factory/
+│   └── pipeline/
+│       ├── screenshots/
+│       └── nycWebtoDL.json
 │
-├── data/
-│   └── sample_data/
+├── Dashboard/
+│   ├── nyctaxi_krishna.pbix
+│   └── screenshots/
 │
-├── screenshots/
-│   ├── architecture.png
-│   ├── data_factory.png
-│   ├── databricks.png
-│   └── powerbi.png
-│
-└── sql/
-    └── queries.sql
+└── extra_screenshots/
 ```
 
 ---
@@ -288,21 +283,28 @@ This architecture makes it easier to separate raw, processed and analytical data
 
 ---
 
-# 📊 Power BI
+#  📊 Power BI
 
-The final processed data can be connected to **Power BI** for visualization.
+The final processed data was connected to Power BI to create an interactive NYC Taxi analytics dashboard.
 
-Possible dashboard metrics include:
+The dashboard includes:
+🚕 Total Trips
+💰 Total Revenue
+💵 Average Fare
+💰 Total Tips
+📏 Average Distance
+📊 Trip Distance Distribution
+💵 Average Fare by Distance
+💸 Tip Rate by Distance
+📍 NYC Taxi Zone Distribution
+🗺️ NYC Taxi Zone Map
 
-* 🚕 Total Trips
-* 💰 Total Revenue
-* 📍 Trips by Location
-* 💳 Payment Type
-* 👥 Passenger Count
-* 📅 Trips over Time
-* 💵 Average Fare
+The Power BI project file is stored in the Dashboard/ folder:
+Dashboard/
+├── nyctaxi_krishna.pbix
+└── screenshots/
 
-
+---
 
 #  Azure Security
 
