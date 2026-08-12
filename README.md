@@ -284,7 +284,7 @@ This architecture makes it easier to separate raw, processed and analytical data
 ---
 
 # 📊 Power BI Dashboard
-```text
+
 The final Gold layer data was connected to **Power BI** to build an interactive **NYC Taxi Trip Analytics Dashboard**.
 
 The dashboard provides an overview of **trip activity, revenue, fares, tips, distance and taxi zone distribution**.
@@ -359,7 +359,7 @@ The Power BI dashboard file is available in the repository:
 Dashboard/
 ├── nyctaxi_krishna.pbix
 └── screenshots/
-```
+
 ---
 #  Azure Security
 
