@@ -351,14 +351,6 @@ The dashboard includes interactive filters for:
 
 These filters allow users to explore the dashboard based on different trip characteristics.
 
-## Power BI File
-
-The Power BI dashboard file is available in the repository:
-
-
-Dashboard/
-├── nyctaxi_krishna.pbix
-└── screenshots/
 
 ---
 #  Azure Security
