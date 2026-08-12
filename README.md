@@ -283,27 +283,82 @@ This architecture makes it easier to separate raw, processed and analytical data
 
 ---
 
-#  📊 Power BI
+# 📊 Power BI Dashboard
 
-The final processed data was connected to Power BI to create an interactive NYC Taxi analytics dashboard.
+The final Gold layer data was connected to **Power BI** to build an interactive **NYC Taxi Trip Analytics Dashboard**.
 
-The dashboard includes:
-🚕 Total Trips
-💰 Total Revenue
-💵 Average Fare
-💰 Total Tips
-📏 Average Distance
-📊 Trip Distance Distribution
-💵 Average Fare by Distance
-💸 Tip Rate by Distance
-📍 NYC Taxi Zone Distribution
-🗺️ NYC Taxi Zone Map
+The dashboard provides an overview of **trip activity, revenue, fares, tips, distance and taxi zone distribution**.
 
-The Power BI project file is stored in the Dashboard/ folder:
+## Dashboard Overview
+
+### Key Performance Indicators (KPIs)
+
+* 🚕 **Total Trips:** 591K
+* 💰 **Total Revenue:** $14.91M
+* 💵 **Average Fare:** $25.21
+* 💰 **Total Tips:** $1.57M
+* 📏 **Average Distance:** 19.02
+
+## Visualizations
+
+### Trip Distance Distribution
+
+Shows the distribution of taxi trips across different distance ranges:
+
+* 0–1 miles
+* 1–2 miles
+* 2–3 miles
+* 3–5 miles
+* 5–10 miles
+* 10–20 miles
+
+### Average Fare by Distance
+
+Shows how the **average taxi fare changes with trip distance**.
+
+The dashboard demonstrates that longer trips generally result in higher average fares.
+
+### Tip Rate by Distance
+
+Shows the **tip rate for different trip-distance categories**, allowing customer tipping behaviour to be compared across trip lengths.
+
+### NYC Taxi Zone Distribution
+
+Shows the distribution of taxi zones across the different NYC boroughs:
+
+* Manhattan
+* Queens
+* Brooklyn
+* Bronx
+* Staten Island
+* EWR
+* N/A
+* Unknown
+
+### NYC Taxi Zone Map
+
+An interactive map visualizes the **spatial distribution of NYC taxi zones**, grouped by borough.
+
+This helps provide a geographical view of taxi activity across New York City.
+
+## Dashboard Filters
+
+The dashboard includes interactive filters for:
+
+* **Vendor**
+* **Passenger Count**
+* **Trip Distance**
+
+These filters allow users to explore the dashboard based on different trip characteristics.
+
+## Power BI File
+
+The Power BI dashboard file is available in the repository:
+
+```text
 Dashboard/
 ├── nyctaxi_krishna.pbix
 └── screenshots/
-
 ---
 
 #  Azure Security
