@@ -25,6 +25,9 @@ The project helped me understand how different Azure services can work together 
 
 ---
 
+<img width="2760" height="1536" alt="Gemini_Generated_Image_qvmf47qvmf47qvmf" src="https://github.com/user-attachments/assets/7cbc6667-e482-4900-ab78-2377fc6492f5" />
+
+
 ## Architecture
 
 ```text
