@@ -350,6 +350,7 @@ The dashboard includes interactive filters for:
 * **Trip Distance**
 
 These filters allow users to explore the dashboard based on different trip characteristics.
+<img width="2172" height="1547" alt="image" src="https://github.com/user-attachments/assets/3c45051b-ce2c-4d1a-a536-d2ecdaf6fd80" />
 
 
 ---
